@@ -134,7 +134,7 @@ export default function HeroSection() {
   const text4Y = useTransform(scrollYProgress, [0.85, 0.9, 1], [50, 0, 0]);
 
   return (
-    <div ref={containerRef} className="relative w-full h-[600vh] overflow-x-hidden" style={{ position: 'relative' }}>
+    <div ref={containerRef} className="relative w-full h-[600vh]" style={{ position: 'relative' }}>
       {/* Sticky container that stays on screen while scrolling the 600vh */}
       <div className="sticky top-0 w-full h-[100dvh] overflow-hidden bg-[#050505]">
         

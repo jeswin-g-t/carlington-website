@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} antialiased dark h-full overflow-x-hidden`}>
-      <body className="min-h-full flex flex-col bg-[#0a0a0a] text-white max-w-[100vw] overflow-x-hidden">
+    <html lang="en" className={`${inter.variable} antialiased dark h-full`}>
+      <body className="min-h-full flex flex-col bg-[#0a0a0a] text-white max-w-[100vw]">
         {children}
       </body>
     </html>
