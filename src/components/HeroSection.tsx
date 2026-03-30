@@ -158,12 +158,12 @@ export default function HeroSection() {
           {/* Phase 1 Text */}
           <motion.div 
             style={{ opacity: text1Opacity, y: text1Y, scale: text1Scale }}
-            className="absolute flex flex-col items-center text-center px-4 top-[15%]"
+            className="absolute flex flex-col items-center text-center px-4 top-[12%] md:top-[15%]"
           >
-             <h1 className="text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-[#333] leading-none uppercase drop-shadow-2xl shadow-black">
+             <h1 className="text-4xl sm:text-5xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-[#333] leading-none uppercase drop-shadow-2xl shadow-black">
                 Carlington
              </h1>
-             <p className="text-primary-green font-bold tracking-[0.4em] uppercase text-sm md:text-xl mt-4 drop-shadow-md shadow-black">
+             <p className="text-primary-green font-bold tracking-[0.2em] sm:tracking-[0.4em] uppercase text-[10px] sm:text-sm md:text-xl mt-4 drop-shadow-md shadow-black">
                 Legacy Series CT 9999
              </p>
           </motion.div>
@@ -171,12 +171,12 @@ export default function HeroSection() {
           {/* Phase 2 Text */}
           <motion.div 
             style={{ opacity: text2Opacity, y: text2Y }}
-            className="absolute flex flex-col items-start text-left px-8 top-[20%] left-0 md:left-[10%]"
+            className="absolute flex flex-col items-center md:items-start text-center md:text-left px-8 top-[18%] md:top-[20%] md:left-[10%]"
           >
-             <h2 className="text-2xl md:text-4xl font-bold text-white uppercase tracking-wider mb-2 drop-shadow-2xl shadow-black">
+             <h2 className="text-xl md:text-4xl font-bold text-white uppercase tracking-wider mb-2 drop-shadow-2xl shadow-black">
                 Fluid Action
              </h2>
-             <p className="text-[#ccc] max-w-sm text-sm md:text-base drop-shadow-lg shadow-black font-medium">
+             <p className="text-[#ccc] max-w-[280px] md:max-w-sm text-xs md:text-base drop-shadow-lg shadow-black font-medium">
                 Flawless sweeps. Infinite rotations. Experience time without stutter.
              </p>
           </motion.div>
@@ -184,12 +184,12 @@ export default function HeroSection() {
           {/* Phase 3 Text */}
           <motion.div 
             style={{ opacity: text3Opacity, y: text3Y }}
-            className="absolute flex flex-col items-end text-right px-8 bottom-[20%] right-0 md:right-[10%]"
+            className="absolute flex flex-col items-center md:items-end text-center md:text-right px-8 bottom-[18%] md:bottom-[20%] md:right-[10%]"
           >
-             <h2 className="text-2xl md:text-4xl font-bold text-white uppercase tracking-wider mb-2 drop-shadow-2xl shadow-black">
+             <h2 className="text-xl md:text-4xl font-bold text-white uppercase tracking-wider mb-2 drop-shadow-2xl shadow-black">
                 Signature Accents
              </h2>
-             <p className="text-[#ccc] max-w-sm text-sm md:text-base drop-shadow-lg shadow-black font-medium">
+             <p className="text-[#ccc] max-w-[280px] md:max-w-sm text-xs md:text-base drop-shadow-lg shadow-black font-medium">
                 The striking electric green finishes signify unrivaled tactical performance.
              </p>
           </motion.div>
@@ -197,12 +197,12 @@ export default function HeroSection() {
           {/* Phase 4 Text */}
           <motion.div 
             style={{ opacity: text4Opacity, y: text4Y }}
-            className="absolute flex flex-col items-end text-right px-8 top-[30%] right-0 md:right-[10%]"
+            className="absolute flex flex-col items-center md:items-end text-center md:text-right px-8 top-[28%] md:top-[30%] md:right-[10%]"
           >
-             <h2 className="text-3xl md:text-5xl font-bold text-primary-green uppercase tracking-tighter mb-2 drop-shadow-[0_4px_24px_rgba(0,0,0,0.8)]">
+             <h2 className="text-2xl md:text-5xl font-bold text-primary-green uppercase tracking-tighter mb-2 drop-shadow-[0_4px_24px_rgba(0,0,0,0.8)]">
                 The Masterpiece
              </h2>
-             <p className="text-white font-medium max-w-sm text-sm md:text-base drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+             <p className="text-white font-medium max-w-[280px] md:max-w-sm text-xs md:text-base drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
                 Scroll down to discover the full specifications of the Legacy Series.
              </p>
           </motion.div>

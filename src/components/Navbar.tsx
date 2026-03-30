@@ -11,16 +11,16 @@ export default function Navbar() {
           </span>
         </div>
         
-        <div className="flex items-center gap-6 text-[#a0a0a0]">
-          <button className="hover:text-primary-green transition-colors">
+        <div className="flex items-center gap-4 sm:gap-6 md:gap-8 text-[#a0a0a0]">
+          <button className="hover:text-primary-green transition-colors p-1">
             <Search className="h-5 w-5" />
           </button>
-          <button className="hover:text-primary-green transition-colors">
+          <button className="hover:text-primary-green transition-colors p-1">
             <Heart className="h-5 w-5" />
           </button>
-          <button className="hover:text-primary-green transition-colors relative">
+          <button className="hover:text-primary-green transition-colors p-1 relative">
             <ShoppingCart className="h-5 w-5" />
-            <span className="absolute -top-1.5 -right-2 flex h-4 w-4 items-center justify-center rounded-full bg-primary-green text-[10px] font-bold text-black font-sans">
+            <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary-green text-[10px] font-bold text-black font-sans">
               1
             </span>
           </button>

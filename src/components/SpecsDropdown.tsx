@@ -28,7 +28,7 @@ export default function SpecsDropdown() {
     >
       <button 
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center justify-between text-2xl md:text-4xl font-bold tracking-tighter uppercase text-white hover:text-primary-green transition-colors w-full text-left group"
+        className="flex items-center justify-center md:justify-between text-2xl md:text-4xl font-bold tracking-tighter uppercase text-white hover:text-primary-green transition-colors w-full text-center md:text-left group gap-4"
       >
         <span>Tech Specs</span>
         <div className="p-4 rounded-full border border-[#333] group-hover:border-primary-green transition-colors">
