@@ -134,9 +134,9 @@ export default function HeroSection() {
   const text4Y = useTransform(scrollYProgress, [0.85, 0.9, 1], [50, 0, 0]);
 
   return (
-    <div ref={containerRef} className="relative w-full h-[600vh]" style={{ position: 'relative' }}>
+    <div ref={containerRef} className="relative w-full h-[600vh] overflow-x-hidden" style={{ position: 'relative' }}>
       {/* Sticky container that stays on screen while scrolling the 600vh */}
-      <div className="sticky top-0 w-full h-screen overflow-hidden bg-[#050505]">
+      <div className="sticky top-0 w-full h-[100dvh] overflow-hidden bg-[#050505]">
         
         {/* Background gradient for depth */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,255,102,0.05),transparent_60%)] pointer-events-none z-0" />
@@ -145,7 +145,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 w-full h-full z-10 flex items-center justify-center">
           <canvas 
             ref={canvasRef} 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </div>
         
