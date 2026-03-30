@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #f0f0f0;
+  --primary-green: #00ff66; /* Electric Green */
+  --primary-green-hover: #00cc52;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary-green);
+  --color-primary-hover: var(--primary-green-hover);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Hide Next.js Development Indicator */
+nextjs-portal {
+  display: none !important;
+}
